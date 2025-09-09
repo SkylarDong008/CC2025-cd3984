@@ -61,9 +61,16 @@ To start a new paragraph, leave an empty line between two lines of text.
 This is a new paragraph.
 # 3 INTERESTING QUOTES
 ## QUOTES 1
-### SOURCE
-### QUOTES
+### 1. SOURCE
+[Why We¡¯re Not Using AI in This Course, Despite Its Obvious Benefits](https://emergingethics.substack.com/p/why-were-not-using-ai-in-this-course) by*PATRICK LIN*
+
+### 2. QUOTES
 > This means LLMs are essentially glorified mirrors, reflecting our own words and images back to us from different angles, as philosopher Shannon Vallor has argued. Mirrors can be very valuable, but sometimes they can be distorted, like fun-house mirrors. They can also be mesmerizing, causing us to fall in love with our own reflection, like Narcissus in Ancient Greek mythology. 
-### THOUGHTS
+### 3. THOUGHTS
 
 ## QUOTES 2
+### 1. SOURCE
+
+### 2. QUOTES
+
+### 3. THOUGHTS
