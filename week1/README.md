@@ -59,3 +59,7 @@ this is a new line.
 To start a new paragraph, leave an empty line between two lines of text.
 
 This is a new paragraph.
+
+> This means LLMs are essentially glorified mirrors, reflecting our own words and images back to us from different angles, as philosopher Shannon Vallor has argued. Mirrors can be very valuable, but sometimes they can be distorted, like fun-house mirrors. They can also be mesmerizing, causing us to fall in love with our own reflection, like Narcissus in Ancient Greek mythology. 
+
+
