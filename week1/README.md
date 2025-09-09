@@ -67,6 +67,9 @@ This is a new paragraph.
 ### 2. QUOTES
 > This means LLMs are essentially glorified mirrors, reflecting our own words and images back to us from different angles, as philosopher Shannon Vallor has argued. Mirrors can be very valuable, but sometimes they can be distorted, like fun-house mirrors. They can also be mesmerizing, causing us to fall in love with our own reflection, like Narcissus in Ancient Greek mythology. 
 ### 3. THOUGHTS
+Algorithmic reccomendation systems and social network biases have already created an information cocoon. While AI has the potential to help us break that cocoon, it may also be creating a new kind of cognitive cocoon which is more scary. As mentioned in this passage, conversational agents are designed to respond based on the context of previous interactions, if we rely solely on AI for information without verification or falsification, existing biases can be easily perpetuated just like a snowball rolling downhill, growing larger and harder to stop.
+
+When it comes to programming, I think AI even skips the whole steps of mirror reflection. In most cases, we act mainly as task givers rather than engaging in a heuristic, back-and-forth dialogue with the AI. As mentioned earlier in the passage about ¡°learning by doing,¡± the problem here is that we are not actually doing anything ourselves, we just give instructions and get a very niche style of coding. This process feels more like a practice in task delegation and reception instead of learning.
 
 ## QUOTES 2
 ### 1. SOURCE
