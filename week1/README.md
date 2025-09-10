@@ -73,7 +73,8 @@ When it comes to programming, I think AI even skips the whole steps of mirror re
 
 ## QUOTES 2
 ### 1. SOURCE
-
+[Program or be programmed](https://addc401fall2016.wordpress.com/wp-content/uploads/2016/08/rushkoff-program-or-be-programmed.pdf) by *Douglas Rushkoff*
 ### 2. QUOTES
-
+> As a result, instead of optimizing our machines for humanity¡ªor even the benefit of some particular group¡ªwe are optimizing humans for machinery. And that's why the choices we make (or don't make) right now really do matter as much or more than they did for our ancestors contending with language, text, and printing. -*P7*
 ### 3. THOUGHTS
+It resonates me a lot about the idea that instead of optimizing our machines, we are optimized for machines. For example, I often find myself scrolling through my phone, passsively recieving various views and infomation, and sacrificing deep thinking and analysis. This unconscious optimization gradually distances us from reflective thinking, how to break free from this loop is the thing we need to conquer, percieving the bias rooted in systems is the first step, learning to consciously interact with machines and understand their operating logic can empower us to shift our role from "passive receivers" to "active controllers."
