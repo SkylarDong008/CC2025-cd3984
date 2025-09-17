@@ -70,7 +70,7 @@ function draw() {
   // ellipse(mouseX, mouseY, mouseY, mouseX);
   ellipse(200,400,100,100);
   // arc is like ellipse but add 2 more parmeters: start and end
-  arc(200, 450, 100, 100, 0, PI, [close]);
+  arc(200, 450, 100, 100, mouseX, PI, [close]);
   // An arc is a section of an ellipse 
   // defined by the x, y, w, and h parameters. 
   // x and y set the location of the arc's center. 
@@ -79,7 +79,5 @@ function draw() {
   // Arcs are always drawn clockwise from start to stop. 
   // The fifth and sixth parameters, start and stop, 
   // set the angles between which to draw the arc. 
-  
-
 
 }
