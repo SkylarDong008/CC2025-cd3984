@@ -9,11 +9,6 @@ function setup() {
   createCanvas(400, 500);
 }
 
-function preload() {
-  // 在这里加载图片（需要提供图片路径或URL）
-  img = loadImage("Suprematist Composition.jpg");
-}
-
 function drawStrips(stripeWidth){
   // x starts from 0, as long as x is smaller than windowWidth, the loop continues 
   for(let x = 0; x < windowWidth; x += stripeWidth) {
