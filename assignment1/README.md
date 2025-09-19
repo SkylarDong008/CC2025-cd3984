@@ -48,8 +48,8 @@ Image with url:
 ![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
 
 
-Image on repo:  
-![This is the reference image](F:\skylar\Documents\Github\CC2025-cd3984\Assignment1\Suprematist Composition.jpg)
+![This is the reference image]("Assignment1/Suprematist Composition.jpg")
+
 
 
 To start a new line, add two spaces at the end of a line, like this:  
