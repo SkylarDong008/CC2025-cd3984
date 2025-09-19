@@ -45,7 +45,8 @@ Link:
 
 
 Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+![image description](https://github.com/SkylarDong008/CC2025-cd3984/blob/4384481abcd3a3df3072f77bbb0869a4b9719770/assignment1/Suprematist%20Composition.jpg)
+
 
 
 ![This is the reference image]("Assignment1/Suprematist Composition.jpg")
