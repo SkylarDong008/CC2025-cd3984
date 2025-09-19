@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 
 
 ---
 
@@ -49,7 +49,7 @@ Image with url:
 
 
 Image on repo:  
-![image description](./file-name.jpg)
+![This is the reference image](./Assignment1/Suprematist Composition.jpg)
 
 
 To start a new line, add two spaces at the end of a line, like this:  
