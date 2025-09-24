@@ -12,7 +12,6 @@ function setup() {
 
 
 function draw() {
-  // 
   console.log(mouseX/width + " " + mouseY/height);
   
   // use 10 rectangular in black to create the effect of strips background in black and white
