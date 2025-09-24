@@ -6,47 +6,59 @@ let warmBrown    = "#945034";
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  createCanvas(400, 500);
+  // set the background to white
+  background("rgba(255, 255, 255, 1)");
 }
 
-function drawStrips(stripeWidth){
-  // x starts from 0, as long as x is smaller than windowWidth, the loop continues 
-  for(let x = 0; x < windowWidth; x += stripeWidth) {
-    // use integer division result (odds and even) to decide whether drawing the black or whtie strips
-    if ( ( x / stripeWidth ) % 2 == 0 ){
-      // since x starts from 0, the first strip should be in black
-      fill("rgb(0,0,0)");
-    }
-    else{
-      fill("rgb(255,255,255)");
-    }
-    // draw strips to fill the canvas
-    rect(x, 0, windowWidth, windowHeight);
-  }
-
-}
 
 function draw() {
-  // set the stripeWidth to 20
-  drawStrips(20);
+  // 
+  console.log(mouseX/width + " " + mouseY/height);
   
-  // adding shadows for each shape
-  drawingContext.shadowOffsetX = 3;
-  drawingContext.shadowOffsetY = 2;
-  drawingContext.shadowBlur = 1;
-  drawingContext.shadowColor = "rgba(0, 0, 0, 0.74)";
+  // use 10 rectangular in black to create the effect of strips background in black and white
+  fill("rgb(0,0,0)");
+  // a black rectangular starts with coordinates(0,0) 
+  // rectangular with the width/20 of the canvas and canvas height 
+  rect(0, 0, width/20, height);
+
+  fill("rgb(0,0,0)");
+  // a black rectangular starts with coordinates(2*width/20, 0) 
+  // keep the same width, width/20 of the canvas
+  rect(2*width/20, 0, width/20, height);
+  // everytime adding a new strip, the x-coordinate of the start points should add 2*width/20
+  // since we should add 1 more balck rectangular and the default white background both in the width of width/20
+  fill("rgb(0,0,0)");
+  rect(4*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(6*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(8*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(10*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(12*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(14*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(16*width/20, 0, width/20, height);
+  fill("rgb(0,0,0)");
+  rect(18*width/20, 0, width/20, height);
+
   
-  // create a triangle in the color of avocadoGreen
+  // gets rid of the stroke completely
   noStroke()
+  // create a triangle in the color of avocadoGreen
   fill(avocadoGreen);
   triangle(width*0.24, height*0.16, width*0.3, height*0.8, width*0.88, height*0.48);
 
   // Divide shapes into different groups 
   // Group 1: consists 4 rectangles in the top left of this painting
   // using push() and pop() to control the same rotate angle of this group
+  // push(): https://p5js.org/reference/p5/push/
   push();
   // Treat these rectangles as a cohesive group.
   // Set rectMode(CENTER) so that the (x, y) coordinates are the rectangle centers
+  // rectMode(CENTER): https://p5js.org/reference/p5/rectMode/
   rectMode(CENTER);
   // rotate 4 rectangulars in the same degree
   rotate(-PI/6.5)
@@ -61,6 +73,7 @@ function draw() {
 
   fill(softBeige);
   rect(width*0.34, height*0.428, width*0.1, height*0.012);
+  // pop(): https://p5js.org/reference/p5/pop/
   pop();
 
   // Create the top left square in softBeige
@@ -89,7 +102,7 @@ function draw() {
 
   // Create the bottom right circle in pastelPink
   fill(pastelPink);
-  circle(width*0.78, height*0.63, 130);
+  circle(width*0.78, height*0.63, width*0.3);
 
   // Create the bottom left square in avocadoGreen
   fill(avocadoGreen);
