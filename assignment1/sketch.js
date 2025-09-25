@@ -10,6 +10,11 @@ function setup() {
   background("rgba(255, 255, 255, 1)");
 }
 
+// Always resize the canvas to fill the browser window.
+// reference: https://p5js.org/reference/p5/resizeCanvas/
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function draw() {
   console.log(mouseX/width + " " + mouseY/height);
